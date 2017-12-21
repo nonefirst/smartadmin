@@ -29,4 +29,5 @@
             plugins: [require('autoprefixer')()]
         }
 14. sinon跟chalk两个组件也升级，否则npm list的时候会有提示
+15. config/index.js下的build的assetsPublicPath: './resource/',需要设置下，否则build后路径对不上
 以上的升级基本可以保证原系统能正常运行，前台界面仍然有大量报错，需要继续修改。
