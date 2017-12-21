@@ -6,7 +6,7 @@
 
 
 
-# webpack 1升级到3升级列表
+# webpack 1升级到3升级列表（element ui仍然是1的时候）
 1.  首先使用vue init创建一个包含webpack3的项目，把build下的配置全部拷贝进来
 2.  resolve.alis直接拷贝进来
 3.  loader对比下拷贝进来
