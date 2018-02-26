@@ -31,3 +31,8 @@
 14. sinon跟chalk两个组件也升级，否则npm list的时候会有提示
 15. config/index.js下的build的assetsPublicPath: './resource/',需要设置下，否则build后路径对不上
 以上的升级基本可以保证原系统能正常运行，前台界面仍然有大量报错，需要继续修改。
+
+# webpack 1升级到3升级列表发现在开发环境下IE11以下打开项目会报错
+原因：
+vue-cli的server从以前的express换成了webpack-dev-server
+dev模式下兼容性低 只有build后可以兼容到ie9
